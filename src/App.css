@@ -1,0 +1,144 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-menu {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-right: solid 1px black;
+}
+
+.right-menu {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: solid 1px black;
+}
+
+.content {
+  width: calc(100% - 70px);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  overflow-y: scroll;
+}
+
+.projects {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.project:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.desc {
+  width: calc(100% - 20px);
+  height: 130px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+.name {
+}
+.money {
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+ 
+.Donations {
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  right: auto;
+  border: solid 1px black;
+}
+
+.img {
+  width: 840px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+.Dname {
+  width: 500px;
+  height: 30px;
+  margin-left: 23%;
+  margin-top: 15px;
+  border: solid 1px black;
+} 
+
+.Ddonation {
+  width: 500px;
+  height: 30px;
+  margin-left: 23%;
+  margin-top: 15px;
+  border: solid 1px black;
+}
+
+.Pmenus {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  right: auto;
+}
+
+.Pline {
+  margin-top: 400px;
+  margin-bottom: 40px;
+  border-bottom: 10px solid black;
+}
+
+.Pmenu {
+}
+
+.Pline2{
+  margin-top: 40px;
+  border-bottom: 10px solid black;
+}
+
+.Pro {
+  width: 250px;
+  height: 380px;
+  margin-left: 30px;
+  border: solid 1px black;
+  display: inline-block;
+}
